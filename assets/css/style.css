@@ -725,3 +725,18 @@ footer {
     }
 }
 
+/*pagina Blog*/
+.blogtitle h1 {
+    text-align: center;
+    color: #5788A6;
+    padding-top: 20px;
+}
+
+
+
+/*pagina Talleres y Cursos*/
+.tallertitle {
+    text-align: center;
+    color: #5788A6;
+    padding-top: 20px;
+}
