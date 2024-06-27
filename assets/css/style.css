@@ -726,10 +726,51 @@ footer {
 }
 
 /*pagina Blog*/
+.blogtitle {
+    padding: 30px;
+    
+}
+
 .blogtitle h1 {
     text-align: center;
     color: #5788A6;
     padding-top: 20px;
+}
+
+.blog1 {
+    padding: 20px;
+    color: #5788A6;
+    border-top: 1px solid #36B9CC;
+}
+
+.blog1 h2, h4 {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.blog1 p {
+    text-align: justify;
+    color:#5788A6;
+    padding: 15px;
+    margin-bottom: 6px;
+}
+
+.blog1 img {
+    width: 100%;
+    padding-top: 10px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+
+
+@media (min-width: 576px) {
+    .blog1 img {
+        height: 50%;
+        width: 50%;
+        float: left;
+        margin-right: 15px;
+    }
 }
 
 
@@ -740,3 +781,10 @@ footer {
     color: #5788A6;
     padding-top: 20px;
 }
+
+
+
+
+
+
+
