@@ -84,7 +84,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    background-color: #5788A6 ;
+    background-color: #FFD37D ;
     list-style: none;  
     height: 40px;
 }
@@ -113,7 +113,7 @@ body {
     position: absolute;
     min-width: 300px;
     overflow:auto;
-    background-color: #5788A6;
+    background-color: #FFD37D;
     box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4); 
     z-index: 1000;  
 }
@@ -154,6 +154,7 @@ main {
     gap: 10px;
     background-color: #BAD5E6;
 }
+
 
 .nosotros h2 {
     padding-bottom: 5px;
@@ -433,7 +434,7 @@ footer {
     }
 
     .mainmenubtn {
-        background-color: #5788A6;
+        background-color: #FFD37D;
         color: white;
         border: none;
         cursor: pointer;
@@ -451,7 +452,7 @@ footer {
         position: absolute;
         min-width: 300px;
         overflow:auto;
-        background-color: #5788A6;
+        background-color: #FFD37D;
         box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.4); 
         z-index: 1000; 
     }
@@ -492,10 +493,11 @@ footer {
         min-width: 250px;
         padding-top: 30px;
         float: right;
-        margin-left: 10px;
+        margin-left: 30px;
     }
 
     .nosotros p {
+        
         padding: 20px;
         font-size: 20px;
         text-align: justify;
@@ -737,6 +739,43 @@ footer {
     padding-top: 20px;
 }
 
+.babyhead {
+    border: 1px solid rgb(214, 212, 212);
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.254);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    color: #5788A6;
+}
+
+.babyhead p {
+    text-align: justify;
+    padding: 10px 0px;
+}
+
+.babyhead h3 {
+    text-align: center;
+}
+
+.babyhead img {
+    width: 100%;
+}
+
+.blogbtn {
+    text-decoration: none;
+    border: 1px solid rgb(214, 212, 212);
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.254);
+    border-radius: 8px;
+    background-color: #BAD5E6;
+    color: #5788A6;
+    padding: 3px 5px;
+    
+} 
+
+
+
+/*hijos de la pagina blog*/
+
 .blog1 {
     padding: 20px;
     color: #5788A6;
@@ -761,7 +800,23 @@ footer {
     box-sizing: border-box;
     margin-bottom: 15px;
 }
+.btnvolver a {
+    text-decoration: none;
+    color: #5788A6;
+    
+    
+}
 
+.btnvolver {
+    border: 1px solid rgb(214, 212, 212);
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.254);
+    border-radius: 8px;
+    background-color: #BAD5E6;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    width: 100px;
+}
 
 
 @media (min-width: 576px) {
