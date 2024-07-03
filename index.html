@@ -88,6 +88,19 @@
           </div>    
     </main>
 
+    <!--Ventana emergente-->
+    <div class="windowNotice" id="popup">
+      <div class="windowContent">
+        <div class="windowText">
+          <h3>Campaña de Invierno en Casa RO</h3>
+          <h4>Durante los meses de invierno contamos con refuerzos de Kinesiología Respiratoria Infantil a Domicilio</h4>
+          <p>Consulta para mas información</p>
+          <div class="windowClose"> <a href="JavaScript:cerrar()"> X </a></div>
+        </div>
+      </div>
+    </div>
+
+
     <section id="especialidades" class="especialidades">
       <h2>Especialidades</h2>
       <div class="cards">
@@ -139,8 +152,9 @@
             <h3>Terapeuta Ocupacional</h3>
             <p>Directora. Co-fundadora</p>
             <p>Licenciada en Ciencia de la Ocupación humana Universidad de Chile.</p>
-            <p>Diplomada en Seguimiento del prematuro.</p>
-            <p>Diplomada Gestión del bienestar personal y laboral</p>
+            <p>Diplomado en Docencia Universitaria UC.</p>
+            <p>Diplomado en Seguimiento del prematuro.</p>
+            <p>Diplomado Gestión del bienestar personal y laboral</p>
             <p>Formación en Integración Sensorial</p>
             <p>Formación en Escala de desarrollo psicomotor Bayley</p>
             <p>Terapeuta Ocupacional de la Unidad de Neurodesarrollo en Hospital Clínico UC-Christus.</p>
@@ -334,5 +348,10 @@
     
     <script src="https://kit.fontawesome.com/51e4c71f0a.js" crossorigin="anonymous"></script>
     
+    <script>
+      function cerrar(){
+        document.getElementById("popup").style.display="none"
+      }
+    </script>
 </body>
 </html>
