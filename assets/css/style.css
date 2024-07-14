@@ -155,9 +155,9 @@ main {
 }
 
 .windowContent {
-    background: #fff;
+    /*background: #fff;
     background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url(../imgs/ktr2.JPG);
-    background-color: black;
+    background-color: black;*/
     background-size: cover;
     background-position: 0% 0%;
     background-repeat: no-repeat;
