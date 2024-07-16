@@ -39,6 +39,29 @@ body {
     right: 35px;
 }
 
+.btn-arriba {
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    left: 35px;
+    background: #36B9CC;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.btn-arriba:hover{
+    text-decoration: none;
+    color: #0df053;
+    background: #fff;
+    z-index: 100;
+}
+
 .container {
     display: flex;
     padding: 10px;
@@ -78,22 +101,48 @@ body {
 }
 
 .btn-hora {
-    border-radius: 5px;
-    /*box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.254);*/
-    width: auto;
-    text-align: center;
+    height: 45px;
+    width: 130px;
+    margin: 40px 0;
     background-color: #36B9CC;
-    border: 1px solid #5788A6;
-    margin-top: 20px;
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.04);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    transition: all 0s ease-out;
+    box-shadow: 0px 5px 4px 0px #377174;
+    padding-left: 3px;
+    font-size: 13px;
+
+    /* background-color: #36B9CC;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 8px;
+    width: auto;
+    text-align: center; */
+}
+
+.btn-hora:active {
+    top: 3px;
 }
 
 .btn-hora i {
-   padding-top: 5px;
+    padding-top: 5px;
 }
 
 .btn-hora a {
     text-decoration: none;
     color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 7px 3px;
 }
 
 
@@ -491,25 +540,15 @@ footer {
 
 /*Version Tablet*/
 @media (min-width: 576px) {
-    /* .btn {
-        display: flex;
-        justify-content: center;
-        border: 1px solid #C9611C;
-        background: #C9611C;
-        color: white;
-        padding: 10px;
-        margin-top: 8px;
-        margin-bottom: 10px;
-        cursor: pointer;
-        width: 100px;
-        border-radius: 4em;
-    } */
-
     
     .btn-hora {
         display: none;
     }
     .btn-wsp {
+        display: none;
+    }
+
+    .btn-arriba {
         display: none;
     }
 
