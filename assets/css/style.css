@@ -77,6 +77,25 @@ body {
     padding-top: 15px;
 }
 
+.btn-hora {
+    border-radius: 5px;
+    /*box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.254);*/
+    width: auto;
+    text-align: center;
+    background-color: #36B9CC;
+    border: 1px solid #5788A6;
+    margin-top: 20px;
+}
+
+.btn-hora i {
+   padding-top: 5px;
+}
+
+.btn-hora a {
+    text-decoration: none;
+    color: #fff;
+}
+
 
 /*BARRA NAVEGACION*/
 
@@ -452,6 +471,10 @@ footer {
     .qr-wsp {
         display: none;
     }
+    .texto-QR {
+        display: none;
+    }
+
     .texto-contacto {
         display: none;
     }
@@ -468,7 +491,7 @@ footer {
 
 /*Version Tablet*/
 @media (min-width: 576px) {
-    .btn {
+    /* .btn {
         display: flex;
         justify-content: center;
         border: 1px solid #C9611C;
@@ -480,8 +503,12 @@ footer {
         cursor: pointer;
         width: 100px;
         border-radius: 4em;
-    }
+    } */
 
+    
+    .btn-hora {
+        display: none;
+    }
     .btn-wsp {
         display: none;
     }
@@ -493,6 +520,15 @@ footer {
     .dropdown {
         display: none;
     }
+
+    .datos-QR {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
 
     .menu-lateral{
         display: flex;  
